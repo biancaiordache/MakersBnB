@@ -1,7 +1,7 @@
 require "sinatra/base"
 
-class MyApp < Sinatra::Base
+class MakersBnB < Sinatra::Base
   get '/' do
-    "Hello from MyApp!"
+    "Hello from MyApp1111!!!!"
   end
 end
