@@ -17,7 +17,7 @@ class User
       VALUES('#{email}', '#{encrypted_password}')
       RETURNING id, email;"
     )
-    p User.new(
+    User.new(
       id: result[0]['id'],
       email: result[0]['email']
     )

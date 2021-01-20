@@ -7,7 +7,7 @@
 <ul>
   <% @listings.each do |listing| %>
   <li class="listing" id="listing-<%= listing.id %>">
-    <%= listing.name %>: <%= listing.description %>
+    <%= listing.name %>: <%= listing.description %> goes for <%= listing.price %>
   <% end %>
 </ul>
 

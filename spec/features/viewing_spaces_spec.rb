@@ -1,8 +1,8 @@
 feature 'Viewing spaces' do
   scenario 'a user can view spaces' do
-    Listing.create(name: 'Listing 1', description: 'Elegant Art Deco Home with Garden in Condesa')
-    Listing.create(name: 'Listing 2', description: 'Unique and Secluded AirShip with Breathtaking Highland Views')
-    Listing.create(name: 'Listing 3', description: 'Luxury City Center Loft on a Traffic-Free Street')
+    Listing.create(name: 'Listing 1', description: 'Elegant Art Deco Home with Garden in Condesa', price: '100')
+    Listing.create(name: 'Listing 2', description: 'Unique and Secluded AirShip with Breathtaking Highland Views', price: '200')
+    Listing.create(name: 'Listing 3', description: 'Luxury City Center Loft on a Traffic-Free Street', price: '300')
 
     visit('/spaces')
 
