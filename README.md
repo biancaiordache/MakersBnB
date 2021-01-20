@@ -51,7 +51,7 @@ I want to be able to enter my email address and password
 - Connect to `psql`
 - Create the `makers_bnb` database:
 ```
-CREATE DATABASE user_auth;
+CREATE DATABASE makers_bnb;
 ```
 - Create the `makers_bnb_test` database:
 ```
