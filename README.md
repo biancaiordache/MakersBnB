@@ -35,7 +35,7 @@ A web application that allows users to list spaces they have available, and to h
 ## User Stories
 
 ```
-**User Story 1**
+** User Story 1 **
 As a user
 So I can sign up to MakersBnB
 I want to be able to enter my email address and password
@@ -49,15 +49,20 @@ I want to be able to enter my email address and password
 ## Database set up
 
 - Connect to `psql`
-- Create the `user_auth` database:
+- Create the `makers_bnb` database:
 ```
 CREATE DATABASE user_auth;
 ```
-- Create the `user_auth_test` database:
+- Create the `makers_bnb_test` database:
 ```
-CREATE DATABASE user_auth_test;
+CREATE DATABASE makers_bnb_test;
 ```
 - Run the SQL scripts in the `db/migrations` folder.
 
 ## Testing
+
 `rspec`
+
+## To run the MakersBnB app:
+
+`shotgun`
