@@ -1,0 +1,16 @@
+<% if @user %>
+  <h1>Welcome, <%= user.email %></h1>
+  <form action="/sessions/destroy" method="post">
+    <input type="submit" value="Sign out" />
+  </form>
+<% end %>
+<ul>
+  <% @listings.each do |listing| %>
+  <li class="listing" id="listing-<%= listing.id %>">
+    <%= listing.name %>: <%= listing.description %>
+  <% end %>
+</ul>
+
+<h2>
+<%= flash[:notice] %>
+</h2>
