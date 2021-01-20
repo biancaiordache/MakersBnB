@@ -60,4 +60,9 @@ CREATE DATABASE makers_bnb_test;
 - Run the SQL scripts in the `db/migrations` folder.
 
 ## Testing
+
 `rspec`
+
+## To run the MakersBnB app:
+
+`shotgun`
