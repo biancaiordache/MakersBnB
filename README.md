@@ -35,7 +35,7 @@ A web application that allows users to list spaces they have available, and to h
 ## User Stories
 
 ```
-**User Story 1**
+** User Story 1 **
 As a user
 So I can sign up to MakersBnB
 I want to be able to enter my email address and password
