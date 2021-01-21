@@ -1,7 +1,7 @@
 feature 'Registrations' do
   scenario 'User can sign up' do
     visit('/users/new')
-    fill_in('Email address', with: 'test@example.com')
+    fill_in('email', with: 'test@example.com')
     fill_in('Password', with: 'password123')
     click_button('Sign up')
 

@@ -19,9 +19,9 @@ describe DatabaseConnection do
     it 'executes a query via PG' do
       connection = DatabaseConnection.setup('makers_bnb_test')
 
-      expect(connection).to receive(:exec).with("SELECT * FROM listings;")
+      expect(connection).to receive(:exec).with("SELECT * FROM listings, users;")
 
-      DatabaseConnection.query("SELECT * FROM listings;")
+      DatabaseConnection.query("SELECT * FROM listings, users;")
     end
   end
 end
