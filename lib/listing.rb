@@ -24,7 +24,11 @@ class Listing
   end
 
   def self.create(name:, description:, price:)
-    result = DatabaseConnection.query("INSERT INTO listings (name, description, price) VALUES('#{name}', '#{description}', '#{price}') RETURNING id, name, description, price;")
+    result = DatabaseConnection.query(
+      "INSERT INTO listings (name, description, price)
+      VALUES('#{name}', '#{description}', '#{price}')
+      RETURNING id, name, description, price;"
+    )
     Listing.new(
       id: result[0]['id'],
       name: result[0]['name'],
