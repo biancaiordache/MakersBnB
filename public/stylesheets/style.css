@@ -24,9 +24,22 @@
 }
 
 .navbar .logo{
-  width: 60px;
+  width: 80px;
   margin: 30px 0;
   cursor: pointer;
+}
+
+.navbar a{
+  padding: 8px 25px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+
 }
 
 .user{
@@ -77,9 +90,10 @@ button{
 
 .info p{
   color: #f0eef1;
-  font-size: 11px;
+  font-size: 20px;
   margin: 20px 0;
   line-height: 80px;
+  font-family: 'Didot', sans-serif;
 }
 
 .sign-up-form
@@ -92,7 +106,7 @@ button{
   text-align: center;
   position: relative;
   margin-right: 180px;
-  margin-top: 0;
+  margin-top: 85px;
   backdrop-filter: blur(10px);
 }
 
@@ -119,7 +133,7 @@ button{
 }
 .sign-up-button
 {
-  background-color: #1c8adb;
+  background-color: #328456;
 }
 
 .slider{
