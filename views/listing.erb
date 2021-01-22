@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MakersBnB</title>
+    <link rel="stylesheet" href="./views/style.css">
+  <style>
+      h1 {
+      color: red;
+      text-align: center;
+      font-size: 70px;
+      color: blue;
+    }
+  </style>
+  </head>
+  <body>
+    <div>
+    <h1> List Your House Here <h1>
+      <form action="/spaces" method="post">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="text" name="description" placeholder="Description" />
+        <input type="text" name="price" placeholder="Price" />
+        <input type="date" name="dates" placeholder="Dates" />
+        <input type="submit" value="List my space" />
+      </form>
+    </div>
+  </body>
+</html>
